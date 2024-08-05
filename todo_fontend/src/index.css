@@ -1,0 +1,92 @@
+:root {
+  --h-color: #2e2e2e;
+  --a-color: #212121;
+  --span-color: #999999;
+  --fot-color: #757575;
+  --p-color: #666666;
+  --primary: #ff4545;
+  --p-font: "Poppins", sans-serif;
+  --black: #000;
+  --white: #fff;
+}
+
+:root {
+  --primary: #d1ba33;
+  --h-color: #1d1e21;
+  --p-color: #545657;
+  --span-color: #8f9092;
+  --black: #000;
+  --white: #fff;
+  --font:
+}
+
+p {
+  font-family: var(--p-font);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* ================navbar=================== */
+.navbar .head-button span {
+  font-size: 30px;
+}
+
+.navbar .navbar-brand {
+  color: var(--a-color);
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: var(--primary);
+}
+
+/* =============button========= */
+button {
+  background-color: var(--primary);
+  padding: 10px 20px;
+  border: transparent;
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.modal form label {
+  display: block;
+}
+
+.list-data table th,
+td {
+  border-bottom: 1px solid var(--black);
+}
